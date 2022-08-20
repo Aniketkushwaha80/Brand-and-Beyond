@@ -58,7 +58,7 @@ if (data.user.role=="admin"){
 }
 alert("Successfully login"); 
         } else{
-            alert("Login Failed"); 
+            alert("Login Failed Check Password or email"); 
         }
     })
     .catch((err) => {
